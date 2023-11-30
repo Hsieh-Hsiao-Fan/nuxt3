@@ -9,7 +9,7 @@ console.log("store", store.userData, store.loginStatus.status);
 <template>
   <NuxtLoadingIndicator color="blue" :height="10" :throttle="0" />
 
-  <div class="layout bg-neutral-100">
+  <div class="layout a bg-neutral-100">
     <header class="header shadow-lg shadow-stone-300">
       <div class="container mx-auto py-3 flex justify-between">
         <NuxtLink to="/"><h1 class="text-3xl font-bold">TWHG</h1></NuxtLink>
